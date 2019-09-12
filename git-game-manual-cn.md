@@ -241,7 +241,7 @@ Have fun!
 
 1. git-game 的第二个版本：git-game-v2:<https://github.com/git-game/git-game-v2>
 
-   入门介绍：[https://kingsleyxie.cn/git-game-v2/#Level%201](https://kingsleyxie.cn/git-game-v2/#Level 1)
+   入门介绍：[https://kingsleyxie.cn/git-game-v2](https://kingsleyxie.cn/git-game-v2)
 
 2. learnGitBranching：<https://github.com/pcottle/learnGitBranching>
 
