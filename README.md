@@ -1,4 +1,25 @@
-# Welcome to the git-game!! 
+Introductions
+======
+This project is fork from <https://github.com/git-game/git-game>.
+
+
+## Why fork?
+Just like this issue:[How to answer question?](https://github.com/git-game/git-game/issues/42) When I first saw the introduction, I didn't know how to use it. After thinking about it myself for a while, I knew how to finish the game. But I still feel the need to give a demo that allows first-time users to get started quickly and enjoy it. That's the reason for this project
+
+
+## <font color="red">How to begin this game?</font>
+
+In this session I will tell you how to begin this game.
+
+[Game introduction and instruction](https://github.com/yansheng836/git-game/blob/master/git-game-manual-en.md)   [中文版-游戏介绍及使用指导](https://github.com/yansheng836/git-game/blob/master/git-game-manual-cn.md)
+
+<br>
+
+Note: the following is the original content.
+
+---
+
+## Welcome to the git-game!! 
 
 This is a terminal game designed to test your knowledge of git commands.
 Each level in the game is a task to perform on this repo.
