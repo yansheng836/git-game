@@ -1,5 +1,4 @@
-Table of Contents
-=================
+# Table of Contents
 
 * [简单介绍](#%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D)
 
@@ -14,9 +13,7 @@ Table of Contents
 
 ## 简单介绍
 
-该游戏是为数不多的git游戏之一（更多git游戏请看：[扩展:Git游戏推荐](#%E6%89%A9%E5%B1%95git%E6%B8%B8%E6%88%8F%E6%8E%A8%E8%8D%90)），适合有一定基础的初学者（会用一些简单命令的），同时作者在游戏里面添加了一些命令的相关链接，如果你没有使用过对应的命令或者是忘记了该命令的用法，你可以从相关链接中获得一些帮助。
-
-
+该游戏是为数不多的git游戏之一（更多git游戏请看：[扩展:Git游戏推荐](#%E6%89%A9%E5%B1%95git%E6%B8%B8%E6%88%8F%E6%8E%A8%E8%8D%90)），适合有一定基础的初学者（会用一些简单命令的），同时作者在游戏里面添加了一些命令的相关链接，如果你没有使用过对应的命令或者是忘记了该命令的用法，你可以从相关链接中获得一些帮助。  
 
 尽管如此，但是这个游戏还是有一定门槛的，你可能不知道该如何开始这个游戏，原文中相关说明就这有下面这段话：
 
@@ -32,14 +29,11 @@ Your first task is to checkout the commit whose commit message is the answer to 
 
 我感觉很是抽象，以至于不知道该如何开始。
 
-
-
 ## 使用说明
 
 ### 1.准备工作：克隆仓库到本地
 
 也许有些人说为什么这么简单的步骤也要特别指出来吗？但是你想过这个问题没有：一个只有6个提交的仓库，为什么会有2700+star ?一开始我并没有注意到这个问题，但是在闯关的过程（第2关）中遇到需要使用分支，而我们使用 `git clone https://github.com/git-game/git-game.git` 默认只能下载该仓库的默认分支，如果不特别进行设置默认为master分支。而这个仓库有**18**个分支。
-
 
 ```bash
 $ git clone https://github.com/git-game/git-game.git
@@ -77,8 +71,6 @@ $ git branch -r
   origin/vector
 ```
 
-
-
 那怎么办呢？循环下载远程分支即可：
 
 ```bash
@@ -106,20 +98,16 @@ Branch 'trees' set up to track remote branch 'trees' from 'origin'.
 Branch 'vector' set up to track remote branch 'vector' from 'origin'.
 ```
 
-详见：[如何克隆Git的所有远程分支](<https://blog.csdn.net/weixin_41287260/article/details/98987135>)
-
-
+详见：[如何克隆Git的所有远程分支](https://blog.csdn.net/weixin_41287260/article/details/98987135)
 
 ### 2.如何开始
 
 **好的开始是成功的一半**，用在这里是再合适不过了！一开始你可能会无从下手，但是当你开始时，你就会不亦乐乎。
-
 <br/>
 
 回过头来看看说明：`You should always check the README.md file for your next clue!`，这里只是说你应该经常检查（查看）`README.md`文件，它可能会给你的下一关的提供线索（clue）。其实不仅仅是README.md文件，**分支（名）、提交（提交信息、提交者信息）、标签**等都是你需要关注的重点。
 
 <br/>
-
 一般情况下，看到`Level x`表示通过了上一关卡，前面可能会有通关成功的一些说明（祝贺），后面会提供下一关的线索或者是会告诉你去哪里找线索。
 
 ### 3.闯关演示
@@ -176,7 +164,8 @@ Date:   Sun Nov 30 18:29:35 2014 -0800
 ```
 
 或者 显示精简的提交信息（图形化的、单行的提交信息、简短的提交HASH1）
-```
+
+```bash
 $ git log --graph --pretty=oneline --abbrev-commit
 * d851edd (HEAD -> master, origin/master, origin/HEAD) updated README for badge notification
 * 7c8c3cc added level1
@@ -227,22 +216,14 @@ In code, my appearance can be subtle and no matter where I am found, I am unwant
 What am I?
 ```
 
-OK，祝贺语，第2关线索。
-
-
+OK，套路来了“祝贺语，第2关线索”表明这关你通过了！
 
 Have fun!
 
-
-
-
-
 ## 扩展:Git游戏推荐
 
-1. git-game 的第二个版本：git-game-v2:<https://github.com/git-game/git-game-v2>
-
-   入门介绍：[https://kingsleyxie.cn/git-game-v2](https://kingsleyxie.cn/git-game-v2)
+1. git-game 的第二个版本：git-game-v2: <https://github.com/git-game/git-game-v2>
+   入门介绍：<https://kingsleyxie.cn/git-game-v2>
 
 2. learnGitBranching：<https://github.com/pcottle/learnGitBranching>
-
    游戏网址：<https://learngitbranching.js.org/?demo>
