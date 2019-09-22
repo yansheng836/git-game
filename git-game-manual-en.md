@@ -98,7 +98,7 @@ See: [how to clone all remote branches of Git](https://blog.csdn.net/weixin_4128
 
 ### 2.How to begin
 
-As the saying goes: **A good beginning is half done. **You may not know what to do at first, but when you start, you'll be happy.
+As the saying goes: **A good beginning is half done. ** You may not know what to do at first, but when you start, you'll be happy.
 <br/>
 
 `You should always check the README.md file for your next clue!`, which simply means that you should always check the `README.md` file. It may give you clues to the next level. It's not just the `README.md` file, it's the ** branchs (name), the commits (info, author), the tags **, etc.
@@ -159,9 +159,9 @@ Date:   Sun Nov 30 18:29:35 2014 -0800
     Initial commit
 ```
 
-Or display a short commit message  (graphical, one-line commit, short commit HASH1)
+Or display a short commit message  (graphical, one-line commit, short commit HASH1):
 
-```
+```bash
 $ git log --graph --pretty=oneline --abbrev-commit
 * d851edd (HEAD -> master, origin/master, origin/HEAD) updated README for badge notification
 * 7c8c3cc added level1
